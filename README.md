@@ -1,1 +1,3 @@
 # Sending Simple JSON messages via Azure IoT Hub
+
+Sending message to CENTERSIGHT via IoT Hub is easy...
