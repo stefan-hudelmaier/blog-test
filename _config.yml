@@ -1,6 +1,6 @@
-name: Stefan Hudelmaier, Device Insight
+name: Device Insight Tech Blog
 theme: jekyll-theme-tactile
-markdown: kramdown
-title: Test Blob
-description: A Test Blog
+#markdown: kramdown
+title: Dvice Insight Tech Blog
+description: Blog Post by [Device Insight](https://device-insight.com) Engineers about IoT, Cloud, Kubernetes, etc.
 show_downloads: false
