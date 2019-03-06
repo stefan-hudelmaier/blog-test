@@ -8,7 +8,7 @@ based on our CENTERSIGHT cloud platform.
 
 # Sending data via Azure IoT Hub
 
-Sending message to CENTERSIGHT via IoT Hub is straight-forward. We are using
+Sending message to CENTERSIGHT via Azure IoT Hub is straight-forward. We are using
 the MQTT command line client from the [Eclipse Mosquitto project](https://mosquitto.org/).
 If you are using Ubuntu, they can be installed using
 
