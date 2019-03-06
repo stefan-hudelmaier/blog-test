@@ -1,6 +1,5 @@
-name: Device Insight Tech Blog
-theme: jekyll-theme-tactile
-#markdown: kramdown
 title: Device Insight Tech Blog
 description: Blog posts by Device Insight Engineers about IoT, Cloud, Kubernetes, etc.
 show_downloads: false
+theme: jekyll-theme-tactile
+google_analytics:
