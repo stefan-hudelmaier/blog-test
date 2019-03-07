@@ -4,7 +4,7 @@ layout: post
 author: Stefan Hudelmaier
 ---
 
-We have recently a tool called kafkactl. The sources can be found on
+We have recently open-sourced a tool called kafkactl. The sources can be found on
 [GitHub](https://github.com/deviceinsight/kafkactl). kafkactl is a command
 line tool for managing an Apache Kafka cluster.
 
