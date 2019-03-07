@@ -8,6 +8,7 @@ based on our CENTERSIGHT cloud platform.
 
 {% for post in site.posts %}
   <h1><a href="{{ post.url }}">{{ post.title }}</a></h1>
+  <p>{{ post.date | date_to_string }} - {{ post.author }}</p>
   <p>{{ post.content }}</p>
 {% endfor %}
 

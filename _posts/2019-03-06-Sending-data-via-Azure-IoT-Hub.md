@@ -8,7 +8,7 @@ Sending message to CENTERSIGHT via Azure IoT Hub is straight-forward. We are usi
 the MQTT command line client from the [Eclipse Mosquitto project](https://mosquitto.org/).
 If you are using Ubuntu, they can be installed using
 
-```console
+```
 apt-get install mosquitto-clients
 ```
 
@@ -18,11 +18,14 @@ blog post.
 
 We will send a temperature datapoint:
 
-```console
-mosquitto_pub -q 1 -h ng-prod-iot-hub001.azure-devices.net -i "urn:di:assets:example:1" \
+```
+mosquitto_pub -q 1 --capath /etc/ssl/certs -p 8883 -V mqttv311 \
+    -h ng-prod-iot-hub001.azure-devices.net \
+    -m '{"temperature": 38.1}' \
+    -i "urn:di:assets:example:1" \
     -u 'ng-prod-iot-hub001.azure-devices.net/urn:di:assets:example:1/api-version=2018-06-30' \
-    -m '{"temperature": 38.1}' -t "devices/urn:di:assets:example:1/messages/events/type=simple" \
-    -p 8883 -V mqttv311 -P "SharedAccessSignature sr=xxx" --capath /etc/ssl/certs
+    -t "devices/urn:di:assets:example:1/messages/events/type=simple" \
+    -P "SharedAccessSignature sr=xxx" 
 ```
 
 In this example, the gateway URN - or Device ID in IoT Hub's terms - is `urn:di:assets:example:1` which
