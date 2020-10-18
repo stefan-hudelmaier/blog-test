@@ -2,7 +2,7 @@
 layout: default
 ---
 
-[Device Insight](https://device-insight.com) has been founded in 2003 and has realized
+[Device Insight](https://www.device-insight.com) has been founded in 2003 and has realized
 more than 150 IoT projects across all industries. Our projects and solutions are all
 based on our CENTERSIGHT cloud platform.
 
